@@ -12,32 +12,12 @@ export default {
     components: {
         MovieListItem
     },
-    data() {
-        return {
-            movies: [
-            {
-                name: "Spiderman",
-                viewers: 856,
-                checked: true,
-                watched: false,
-                liked: false
-            },
-            {
-                name: "Game of Thrones",
-                viewers: 1235,
-                checked: false,
-                watched: true,
-                liked: false
-            },
-            {
-                name: "Avengers Doomsday",
-                viewers: 4789,
-                checked: false,
-                watched: false,
-                liked: true
-            }
-            ]
-        }
+    props: {
+        movies: {
+            type: Array,
+            required: true
+        },
+
     }
 }
 </script>
