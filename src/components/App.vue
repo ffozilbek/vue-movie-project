@@ -41,4 +41,5 @@ export default {
 .section:not(:last-child) {
     margin-bottom: 15px;
 }
+
 </style>

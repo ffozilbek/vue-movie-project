@@ -1,8 +1,8 @@
 <template>
-    <div class="btn-group">
-        <buttton class="btn btn-outline-dark active">Ko'rilgan</buttton>
-        <buttton class="btn btn-outline-dark">Ko'rilmagan</buttton>
-        <buttton class="btn btn-outline-dark">Ko'rilayotgan</buttton>
+    <div class="btn-group" role="group">
+        <button class="btn btn-outline-dark active">Ko'rilgan</button>
+        <button class="btn btn-outline-dark">Ko'rilmagan</button>
+        <button class="btn btn-outline-dark">Ko'rilayotgan</button>
     </div>
 </template>
 <script>
